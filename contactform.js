@@ -1,0 +1,1 @@
+!function(){let e=document.querySelectorAll(".getdata"),t=[];function a(){t=Array.from(e).map(e=>e.value),sessionStorage.setItem("formData",JSON.stringify(t))}e.forEach(e=>{e.addEventListener("change",a)})}();
